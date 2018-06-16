@@ -38,7 +38,7 @@
 		8FEFF2F020C79D6600C131EF = {
 			isa = PBXGroup;
 			children = (
-				8FEFF2FB20C79D6600C131EF /* SSISPuzzle2018 */,
+				8FEFF2FB20C79D6600C131EF /* Puzzler2018RobotGrid */,
 				8FEFF2FA20C79D6600C131EF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,7 +51,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8FEFF2FB20C79D6600C131EF /* SSISPuzzle2018 */ = {
+		8FEFF2FB20C79D6600C131EF /* Puzzler2018RobotGrid */ = {
 			isa = PBXGroup;
 			children = (
 				8FEFF2FC20C79D6600C131EF /* AppDelegate.swift */,
@@ -61,7 +61,7 @@
 				8FEFF30520C79D6900C131EF /* LaunchScreen.storyboard */,
 				8FEFF30820C79D6900C131EF /* Info.plist */,
 			);
-			path = SSISPuzzle2018;
+			path = Puzzler2018RobotGrid;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8FEFF2F420C79D6600C131EF /* Build configuration list for PBXProject "SSISPuzzle2018" */;
+			buildConfigurationList = 8FEFF2F420C79D6600C131EF /* Build configuration list for PBXProject "Puzzler2018RobotGrid" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -283,6 +283,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L535VE8CNC;
 				INFOPLIST_FILE = SSISPuzzle2018/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,7 +291,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = EMW.SSISPuzzle2018;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -301,6 +302,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L535VE8CNC;
 				INFOPLIST_FILE = SSISPuzzle2018/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,14 +310,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = EMW.SSISPuzzle2018;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8FEFF2F420C79D6600C131EF /* Build configuration list for PBXProject "SSISPuzzle2018" */ = {
+		8FEFF2F420C79D6600C131EF /* Build configuration list for PBXProject "Puzzler2018RobotGrid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8FEFF30920C79D6900C131EF /* Debug */,
